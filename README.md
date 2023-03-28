@@ -8,6 +8,11 @@ repositories {
     maven {
         name = "MrCrayfish (GitHub)"
         url = "https://maven.pkg.github.com/MrCrayfish/Maven"
+        credentials {
+            // For your security, retrieve these from a non-public file or environment variable
+            username = <GITHUB_USERNAME>
+            password = <GITHUB_PERSONAL_TOKEN>
+        }
     }
 }
 ```
